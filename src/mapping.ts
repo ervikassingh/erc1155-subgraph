@@ -155,9 +155,3 @@ export function handleTransferBatch(event: TransferBatch): void {
     ts.save();
   }
 }
-
-// address: "0x06DAc23e91566AC4BC8a5AEABF3770bc00Bac31d"
-// startBlock: 20505937
-
-// address: "0x7eEA4D055fE0493E5c0f5320BEae22e9695709D0"
-// startBlock: 18897800
