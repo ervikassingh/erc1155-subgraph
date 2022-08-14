@@ -1,0 +1,23 @@
+type Transfer @entity {
+  id: ID!
+  timestamp: BigInt!
+  blockNumber: BigInt!
+  operator: Account!
+  from: Account!
+  to: Account!
+  tokenId: BigInt!
+  value: BigInt!
+}
+
+type NFT @entity {
+  id: ID!
+  tokenId: BigInt!
+  minter: Account!
+  owners: [Account!]!
+  values: [BigInt!]!
+}
+
+type Account @entity {
+  id: ID!
+  address: String!
+}
