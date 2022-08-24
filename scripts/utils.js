@@ -16,6 +16,7 @@ async function makeReq(query) {
     }
 };
 
+// get first 10 nfts array
 async function get() {
     let query =
     `
